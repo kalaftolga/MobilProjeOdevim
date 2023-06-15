@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:ignore="UsingOnClickInXml">
+
+    <TextView
+        android:id="@+id/sorusayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sayimsayi"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/soru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soru"
+        android:textSize="24sp"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:id="@+id/cevapbtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/cevapbtn"
+        android:layout_marginTop="80dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="cevapkontrol" />
+
+    <Button
+        android:id="@+id/cevapbtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/cevapbtn"
+        android:layout_marginTop="6dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="cevapkontrol" />
+
+    <Button
+        android:id="@+id/cevapbtn3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/cevapbtn"
+        android:layout_marginTop="6dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="cevapkontrol" />
+
+    <Button
+        android:id="@+id/cevapbtn4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/cevapbtn"
+        android:layout_marginTop="6dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="cevapkontrol" />
+</LinearLayout>

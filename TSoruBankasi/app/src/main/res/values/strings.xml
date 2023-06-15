@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TSoruBankasi</string>
+
+    <string name="sayimsayi">Soru %d</string>
+    <string name="soru">Soru</string>
+    <string name="cevapbtn">Cevap</string>
+    
+    <string name="sonuc">Sonuç</string>
+    <string name="sonucskor">%d / 5</string>
+    <string name="yenidendenebtn">Yeniden Dene</string>
+</resources>
